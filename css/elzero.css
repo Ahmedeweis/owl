@@ -339,7 +339,7 @@ color:#02d6f3;
     font-size: 28px;
   }
   .landing .container {
-    background-color:#500808;
+    background-color:rgb(60, 238, 226);
     background-image:url("../imgs/logo.png");
     background-position:center center;
     background-size:cover;
@@ -426,7 +426,7 @@ color:#02d6f3;
 .articles .box .content p {
   margin: 10px 0 0;
   line-height: 1.5;
-  color: #777;
+  color: rgb(9, 5, 5);
 }
 .articles .box .info {
   padding: 20px;
