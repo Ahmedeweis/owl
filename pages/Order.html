@@ -4,8 +4,88 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>orders</title>
+	<link rel="stylesheet" type="text/css" href="../css/Orders.css">
 </head>
-<body>
-
-</body>
+  <body>
+    <!-- Start Header -->
+    <div class="header" id="header">
+      <div class="container">
+        <a href="#" class="logo">OWL</a>
+        <ul class="main-nav">          
+          <li><a href="../index.html">T-shirts</a></li>
+          <li><a href="../index.html">features</a></li>
+          <li><a href="../index.html">Our state</a></li>
+          <li>
+            <a href="#">Other Links</a>
+            <!-- Start Megamenu -->
+            <div class="mega-menu">
+              <div class="image">
+                <img src="imgs/megamenu.png" alt="" />
+              </div>
+              <ul class="links">
+                <li>
+                  <a href="https://www.facebook.com/owlbrand1"><i class="fab fa-facebook-f"></i>facebook</a>
+                </li>
+                <li>
+                  <a href="https://api.whatsapp.com/send/?phone=201153161437&text&type=phone_number&app_absent=0"><i class="far fa-user fa-fw"></i>whatapp</a>
+                </li>               
+              </ul>
+              <ul class="links">
+                <li>
+                  <a href="https://m.facebook.com/messages/thread/110338151530585/?entrypoint=web%3Atrigger%3Afb_page_cta_page_primary_button"><i class="far fa-comments fa-fw"></i>massenger</a>
+                </li>
+                <li>
+                  <a href=""><i class="fab fa-instagram"></i>instegram</a>
+                </li>                
+              </ul>
+            </div>
+            <!-- End Megamenu -->
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- End Header -->  	
+    <!-- Start Landing -->
+    <div class="landing">
+      <div class="container">
+        <div class="image">
+          <img src="../imgs/Land.png" alt="" />
+        </div>         
+        <div class="flex">
+          <!--  form body  -->
+          <h1 class="Signup-header">Make Order</h1>       
+  		  <!-- form action & method     -->
+          <form class="formy" action="" method="get">
+            <!--  form inputs  -->	
+      	    <p><input type="text"  name="User"  placeholder="First Name" required></p>
+            <p><input type="text" name="phone" pattern="[0-9]{11}"  placeholder="Whatsapp-phone" required></p>
+            <p><input type="text" name="address" placeholder="Address" required></p>
+            <div class="containerr">
+              <label> choose design :</label><br>
+              <input class="radioo" type="radio" name="design" value="Attack" required>Attack-on-Titan<br>
+			  <input class="radioo" type="radio" name="design" value="L" >death-note<br>
+			  <input class="radioo" type="radio" name="design" value="Dragon">Dragon-ball<br>
+			</div>
+			<div class="containerr">
+			  <label> choose color:</label><br>
+			  <input class="radioo" type="radio" name="color" value="white" required>off white<br>
+			  <input class="radioo" type="radio" name="color" value="Black">Black<br>
+			</div>
+			<div class="containerr">
+		   	  <label> choose size :</label><br>
+			  <input class="radioo"  type="radio" name="size" value="M" required>M<br>
+			  <input class="radioo"  type="radio" name="size" value="L">L<br>
+			  <input class="radioo"  type="radio" name="size" value="XL">XL<br>
+			  <input class="radioo"  type="radio" name="size" value="2XL">2XL<br>
+			</div>
+		    <!-- submit button  -->
+            <input type="submit" name=""><br>
+            <a href="done.html">Make order</a>
+          </form>
+        </div>   
+      </div>
+    </div>
+    <!-- End Landing -->	
+    <!-- page Content --> 	  
+  </body>
 </html>
